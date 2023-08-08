@@ -13,7 +13,8 @@ public final class MenuJOJO extends javax.swing.JFrame {
         String[] names = {"Brinco", "Anel", "Colar", "Bracelete", "Piercing"};
         Double[] values = {45.99, 12.99, 89.99, 50.00, 19.90};
         for (int i = 0; i < names.length; i++) {
-            products.add(new Produto(names[i], values[i], i * 5));
+            int qtd = (int) Math.floor(Math.random() * 1000);
+            products.add(new Produto(names[i], values[i], qtd));
         }
     }
 
