@@ -46,6 +46,11 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
       <SubComponents>
         <Container class="javax.swing.JPanel" name="menu">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
               <CardConstraints cardName="menu"/>
@@ -56,31 +61,41 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="btnColar" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnBracelete" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnPiercing" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnBrinco" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnAnel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnColar" max="32767" attributes="0"/>
+                                  <Component id="btnBracelete" max="32767" attributes="0"/>
+                                  <Component id="btnPiercing" max="32767" attributes="0"/>
+                                  <Component id="btnBrinco" max="32767" attributes="0"/>
+                                  <Component id="btnAnel" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="prodColar" min="-2" pref="73" max="-2" attributes="0"/>
-                                  <Component id="prodAnel" min="-2" pref="73" max="-2" attributes="0"/>
-                                  <Component id="prodBrinco" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="prodPiercing" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="prodBracelete" alignment="1" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="prodColar" max="32767" attributes="0"/>
+                                              <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="prodAnel" max="32767" attributes="0"/>
+                                              <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="prodBrinco" max="32767" attributes="0"/>
+                                              <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="prodPiercing" alignment="0" max="32767" attributes="0"/>
                                       </Group>
-                                      <Component id="prodBracelete" alignment="1" min="-2" pref="119" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
-                          <Component id="jLabel1" alignment="1" min="-2" pref="214" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
                   </Group>
@@ -89,34 +104,64 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="61" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="jLabel1" pref="61" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="prodColar" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnColar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="prodColar" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="btnColar" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="prodBracelete" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnBracelete" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="prodBracelete" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="btnBracelete" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="prodPiercing" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnPiercing" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="prodPiercing" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="btnPiercing" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="prodBrinco" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnBrinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="prodBrinco" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="btnBrinco" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="prodAnel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnAnel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="prodAnel" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="3" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="btnAnel" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="87" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -127,6 +172,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="48" style="1"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f5" green="82" red="dc" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="J&#xf4;Joias"/>
               </Properties>
             </Component>
@@ -134,6 +182,9 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5a" green="5a" red="5a" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Colar"/>
               </Properties>
@@ -143,6 +194,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="24" style="1"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5a" green="5a" red="5a" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Priercing"/>
               </Properties>
             </Component>
@@ -150,6 +204,9 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5a" green="5a" red="5a" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Anel"/>
               </Properties>
@@ -159,6 +216,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="24" style="1"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5a" green="5a" red="5a" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Bracelete"/>
               </Properties>
             </Component>
@@ -167,11 +227,17 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="24" style="1"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5a" green="5a" red="5a" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Brinco"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="btnColar">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="c8" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -180,6 +246,12 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnBracelete">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="c8" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3a" green="3a" red="3a" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -188,6 +260,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnPiercing">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="c8" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -196,6 +271,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnBrinco">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="c8" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -204,6 +282,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnAnel">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="c8" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -213,6 +294,11 @@
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="viewProduto">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
               <CardConstraints cardName="viewProduto"/>
@@ -265,7 +351,7 @@
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <Component id="reservadosLabel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                               <Component id="reservados" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Component id="qtdLabel" min="-2" max="-2" attributes="0"/>
@@ -398,6 +484,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnComprar">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="64" green="64" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Comprar"/>
               </Properties>
               <Events>
@@ -406,6 +495,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnReservar">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="d0" red="bc" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Reservar"/>
               </Properties>
               <Events>
@@ -414,6 +506,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnCancelarReserva">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="dc" green="dc" red="96" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Cancelar Reserva"/>
               </Properties>
               <Events>

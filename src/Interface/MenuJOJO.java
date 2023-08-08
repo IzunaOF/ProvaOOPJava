@@ -64,24 +64,33 @@ public final class MenuJOJO extends javax.swing.JFrame {
         main.setPreferredSize(new java.awt.Dimension(500, 500));
         main.setLayout(new java.awt.CardLayout());
 
+        menu.setBackground(new java.awt.Color(255, 255, 255));
+
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(220, 130, 245));
         jLabel1.setText("JôJoias");
 
         prodColar.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        prodColar.setForeground(new java.awt.Color(90, 90, 90));
         prodColar.setText("Colar");
 
         prodPiercing.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        prodPiercing.setForeground(new java.awt.Color(90, 90, 90));
         prodPiercing.setText("Priercing");
 
         prodAnel.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        prodAnel.setForeground(new java.awt.Color(90, 90, 90));
         prodAnel.setText("Anel");
 
         prodBracelete.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        prodBracelete.setForeground(new java.awt.Color(90, 90, 90));
         prodBracelete.setText("Bracelete");
 
         prodBrinco.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        prodBrinco.setForeground(new java.awt.Color(90, 90, 90));
         prodBrinco.setText("Brinco");
 
+        btnColar.setBackground(new java.awt.Color(200, 255, 255));
         btnColar.setText("Ver");
         btnColar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -89,6 +98,8 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnBracelete.setBackground(new java.awt.Color(200, 255, 255));
+        btnBracelete.setForeground(new java.awt.Color(58, 58, 58));
         btnBracelete.setText("Ver");
         btnBracelete.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -96,6 +107,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnPiercing.setBackground(new java.awt.Color(200, 255, 255));
         btnPiercing.setText("Ver");
         btnPiercing.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -103,6 +115,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnBrinco.setBackground(new java.awt.Color(200, 255, 255));
         btnBrinco.setText("Ver");
         btnBrinco.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -110,6 +123,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnAnel.setBackground(new java.awt.Color(200, 255, 255));
         btnAnel.setText("Ver");
         btnAnel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -122,57 +136,86 @@ public final class MenuJOJO extends javax.swing.JFrame {
         menuLayout.setHorizontalGroup(
             menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, menuLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(94, 94, 94)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(23, 23, 23)
                         .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnColar)
-                            .addComponent(btnBracelete)
-                            .addComponent(btnPiercing)
-                            .addComponent(btnBrinco)
-                            .addComponent(btnAnel))
+                            .addComponent(btnColar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnBracelete, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnPiercing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnBrinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnAnel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(prodColar, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(prodAnel, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(prodBrinco, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, menuLayout.createSequentialGroup()
-                                    .addComponent(prodPiercing)
-                                    .addGap(15, 15, 15))
-                                .addComponent(prodBracelete, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(prodBracelete, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(menuLayout.createSequentialGroup()
+                                .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(menuLayout.createSequentialGroup()
+                                        .addComponent(prodColar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(31, 31, 31))
+                                    .addGroup(menuLayout.createSequentialGroup()
+                                        .addComponent(prodAnel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(31, 31, 31))
+                                    .addGroup(menuLayout.createSequentialGroup()
+                                        .addComponent(prodBrinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(13, 13, 13))
+                                    .addComponent(prodPiercing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(15, 15, 15))))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(97, 97, 97))
         );
         menuLayout.setVerticalGroup(
             menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(menuLayout.createSequentialGroup()
-                .addGap(84, 84, 84)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(39, 39, 39)
+                .addGap(87, 87, 87)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 61, Short.MAX_VALUE)
+                .addGap(36, 36, 36)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(prodColar)
-                    .addComponent(btnColar))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(prodColar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(btnColar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(6, 6, 6)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(prodBracelete)
-                    .addComponent(btnBracelete))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(prodBracelete, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(btnBracelete, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(6, 6, 6)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(prodPiercing)
-                    .addComponent(btnPiercing))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(prodPiercing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(btnPiercing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(6, 6, 6)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(prodBrinco)
-                    .addComponent(btnBrinco))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(prodBrinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(btnBrinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(6, 6, 6)
                 .addGroup(menuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(prodAnel)
-                    .addComponent(btnAnel))
-                .addContainerGap(87, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(prodAnel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(menuLayout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(btnAnel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(87, 87, 87))
         );
 
         main.add(menu, "menu");
+
+        viewProduto.setBackground(new java.awt.Color(240, 240, 240));
 
         nomePorduto.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         nomePorduto.setText("PRODUTO");
@@ -202,6 +245,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnComprar.setBackground(new java.awt.Color(255, 100, 100));
         btnComprar.setText("Comprar");
         btnComprar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -209,6 +253,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnReservar.setBackground(new java.awt.Color(188, 208, 255));
         btnReservar.setText("Reservar");
         btnReservar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -216,6 +261,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
             }
         });
 
+        btnCancelarReserva.setBackground(new java.awt.Color(150, 220, 220));
         btnCancelarReserva.setText("Cancelar Reserva");
         btnCancelarReserva.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -277,7 +323,7 @@ public final class MenuJOJO extends javax.swing.JFrame {
                                         .addComponent(valueLabel))
                                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, viewProdutoLayout.createSequentialGroup()
                                         .addComponent(reservadosLabel)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(reservados)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(qtdLabel)))
