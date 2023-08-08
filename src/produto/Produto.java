@@ -8,12 +8,14 @@ public class Produto {
     private Double value;
     private Integer qtd;
     private Integer reserved;
+    private Integer comprados;
 
     public Produto(String name, Double value, Integer qtd) {
         this.name = name;
         this.value = value;
         this.qtd = qtd;
         this.reserved = 0;
+        this.comprados = 0;
     }
 
     public String showProductListParams() {
@@ -24,31 +26,33 @@ public class Produto {
         return params += "Product Name: " + this.name + " -- Product Value: " + this.value + " -- Stock: " + this.qtd + " unt" + " -- Reserved Quantity: " + this.reserved + "\n";
     }
 
-    public Boolean BUY(Integer many) {
-        if ((qtd - many) < 0) {
-            return false;
-        }
-        this.qtd -= many;
-
-        return true;
-    }
-
-    public void reserve(Integer many) {
-        if ((qtd - many) <= 0) {
+    public void BUY(Integer value) {
+        if ((qtd - value) < 0) {
             JOptionPane.showMessageDialog(null, "Produo fora de Estoque");
             return;
         }
-        this.reserved += many;
-        this.qtd -= many;
+        comprados += value;
+        this.qtd -= value;
+
+        return;
     }
 
-    public void unReserve(Integer many) {
-        if ((reserved - many) < 0) {
+    public void reserve(Integer value) {
+        if ((qtd - value) < 0) {
+            JOptionPane.showMessageDialog(null, "Produo fora de Estoque");
+            return;
+        }
+        this.reserved += value;
+        this.qtd -= value;
+    }
+
+    public void unReserve(Integer value) {
+        if ((reserved - value) < 0) {
             JOptionPane.showMessageDialog(null, "Este Porduto não possui reservas");
             return;
         }
-        this.reserved -= many;
-        this.qtd += many;
+        this.reserved -= value;
+        this.qtd += value;
     }
 
     public void updateName(String name) {
@@ -61,6 +65,13 @@ public class Produto {
 
     public void updateValue(Double value) {
         this.value = value;
+    }
+
+    public int getComprados(){
+        return this.comprados;
+    }
+    public int getReservados() {
+        return this.reserved;
     }
 
     public String getName() {
