@@ -584,7 +584,7 @@ public class StoreFrame extends javax.swing.JFrame {
                 x = 50;
                 y += 155;
             }
-
+//ss
             this.container.add(details);
         }
     }
